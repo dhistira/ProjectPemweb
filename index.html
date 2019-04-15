@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yudhistira Bayu Wryatsongko</title>
+		<link rel="icon" href="icons/icon.png" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Yudhistira Bayu Wryatsongko Personal Site" />
+		<meta name="keywords" content="Yudhistira,Bayu,Yudhistira Bayu,Wryatsongko,Yudhistira Bayu Wryatsongko" />
+		<script src="js/jquery.min.js?123"></script>
+		<script src="js/main.js"></script>
+		<script src="js/skel.min.js?123"></script>
+		<script src="js/skel-panels.min.js?123"></script>
+		<script src="js/init.js?123"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css?1234" />
+			<link rel="stylesheet" href="css/style.css?1234" />
+			<link rel="stylesheet" href="css/style-desktop.css?1234" />
+		</noscript>
+	</head>
+	
+	<body>
+	<!-- Header -->
+		<div id="header">
+			<div id="nav-wrapper"> 
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul>
+						<li style="float:left"><a href="index.html"><img src="icons/icon.png" style="float:left;width:3em;height:3em;margin-right:0.3em" alt="icon"></a></li>
+						<li class="active"><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="video-blog.html">VIDEO BLOG</a></li>
+						<li><p onclick="myFunction()" class="dropbtn">CLICK ME</p></li>
+						<div id="myDropdown" class="dropdown-content">
+							<li><a href="#" target="_blank">LINK 1 aaaaaaaaaaaaaa</a></li>
+							<li><a href="#" target="_blank">LINK 1 aaaaaaaaaaaaaa</a></li>
+						</div>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="schedule.html">SCHEDULE</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="container"> 
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">Yudhistira Bayu Wryatsongko</a></h1>
+					<span class="tag">I Draw Comic Strip in My Free Time</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Gallery -->
+		<div class="gallery">
+			<div class="content">
+				<div class="media">
+					<h1><a href="#">Anti Plastic Bags</a></h1>
+					<a href="#"><img src="images/thumbs/comic1.jpg" alt="comic1"/></a>
+				</div>
+				<div class="media">
+					<h1><a href="#">Bladder Wake Up</a></h1>
+					<a href="#"><img src="images/thumbs/comic5.jpg" alt="comic5"/></a>
+				</div>
+				<div class="media">
+					<h1><a href="#">Cat</a></h1>
+					<a href="#"><img src="images/thumbs/comic4.jpg" alt="comic4"/></a>
+				</div>
+				<div class="media">
+					<h1><a href="#">Me Watching Horror Movies</a></h1>
+					<a href="#"><img src="images/thumbs/comic3.jpg" alt="comic3"/></a>
+				</div>
+				<div class="media">
+					<h1><a href="#">Make a Wish</a></h1>
+					<a href="#"><img src="images/thumbs/comic2.jpg" alt="comic2"/></a>
+				</div>
+				<div class="media">
+					<h1><a href="#">Live a Life</a></h1>
+					<a href="#"><img src="images/thumbs/comic6.jpg" alt="comic6"/></a>
+				</div>
+			</div>
+			<div class="footer">
+			<a href="https://storycent.tumblr.com" target="_blank" class="button big">S E E &nbsp; A L L</a>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="copyright" style="margin-right:1em; margin-left:1em">
+					<ul class="contact">
+						<li style="float:left">bayubirru &copy; 2019</li>
+						<li><a href="mailto:bayubirru16@gmail.com" class="fa fa-envelope"></a></li>
+						<li><a href="https://www.instagram.com/bayubirru/" target="_blank" class="fa fa-instagram"></a></li>
+						<li><a href="https://www.facebook.com/dhistira.bayu" target="_blank" class="fa fa-facebook"></a></li>
+						<li><a href="https://twitter.com/bayubirru_" target="_blank" class="fa fa-twitter"></a></li>
+						<li><a href="https://storycent.tumblr.com" target="_blank" class="fa fa-tumblr"></a></li>
+						<li><a href="https://linkedin.com/in/dhistiraby" target="_blank" class="fa fa-linkedin"></a></li>
+						<li><a href="https://github.com/dhistira" target="_blank" class="fa fa-github"></a></li>
+					</ul>
+			</div>
+		</div>
+
+
+
+	<script>
+		/* Toggle between hiding and showing the dropdown */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+			if (!event.target.matches('.dropbtn')) {
+
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+	</script>	
+	</body>
+</html>

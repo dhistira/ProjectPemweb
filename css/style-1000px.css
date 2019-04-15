@@ -1,0 +1,23 @@
+/* GENERAL */
+
+	body,input,textarea,select {
+		font-size: 11pt;
+	}
+
+	header {
+		margin-bottom: 1.6em;
+	}
+	
+		header h2 {
+			font-size: 2.8em;
+		}
+
+		header .byline {
+			font-size: 1.2em;
+		}
+
+/* MAIN */
+
+	.homepage #content header h2 {
+		font-size: 1.8em;
+	}

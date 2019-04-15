@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About</title>
+		<link rel="icon" href="icons/icon.png" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Yudhistira Bayu Wryatsongko Personal Site" />
+		<meta name="keywords" content="Yudhistira,Bayu,Yudhistira Bayu,Wryatsongko,Yudhistira Bayu Wryatsongko" />
+		<script src="js/jquery.min.js?123"></script>
+		<script src="js/main.js"></script>
+		<script src="js/skel.min.js?123"></script>
+		<script src="js/skel-panels.min.js?123"></script>
+		<script src="js/init.js?123"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css?1234" />
+			<link rel="stylesheet" href="css/style.css?1234" />
+			<link rel="stylesheet" href="css/style-desktop.css?1234" />
+		</noscript>
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header2">
+			<div id="nav-wrapper"> 
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul>
+						<li style="float:left"><a href="index.html"><img src="icons/icon.png" style="float:left;width:3em;height:3em;margin-right:0.3em" alt="icon"></a></li>
+						<li><a href="index.html">HOME</a></li>
+						<li class="active"><a href="about.html">ABOUT</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="video-blog.html">VIDEO BLOG</a></li>
+						<li><p onclick="myFunction()" class="dropbtn">CLICK ME</p></li>
+						<div id="myDropdown" class="dropdown-content">
+							<li><a href="#" target="_blank">LINK 1 aaaaaaaaaaaaaa</a></li>
+							<li><a href="#" target="_blank">LINK 1 aaaaaaaaaaaaaa</a></li>
+						</div>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="schedule.html">SCHEDULE</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+		<!-- Header --> 
+		<div id="profile" style="text-align:center">
+			<div class="image rounded"><center><img src="images/profile.jpg" style="width:10em; height:10em; margin-bottom: 1em" alt=""/></center>
+				<table style="text-align:left;width: 400px;">
+					<tr><td style="text-align: center;"><h3 style="color:green;font-weight: bold;">Basic Information</h3></td></tr>
+					<tr><td><b>Full Name:</b></td></tr>
+					<tr><td>Yudhistira Bayu Wryatsongko</td></tr>
+					<tr><td><b>Born Date:</b></td></tr>
+					<tr><td>Cilegon, September 16, 1999</td></tr>
+				</table>
+				
+				<table style="width: 400px;">
+					<tr><td style="text-align: center;"><h3 style="color:green;font-weight: bold;">Education</h3></td></tr>
+					<tr><td style="text-align: left;"><b>Universitas Sebelas Maret </b><br>Computer Science, Undergraduate.<br>2017 - Now</td></tr>
+				</table>
+
+				<table style="width: 400px;">
+					<tr><td style="text-align: center;"><h3 style="color:green;font-weight: bold;">Work Experience</h3></td></tr>
+					<tr><td style="text-align: left;"><b>Kredibel.co.id - PT. Duta Agensi</b><br>Chief Technology Officer (CTO)<br>Apr 2016 - Jul 2018</td></tr>
+					<tr><td style="text-align: left;"><b>Wangsit Education - CV. Wangsit Education</b><br>Head of IT<br>Feb 2018 - Apr 2018</td></tr>
+					<tr><td style="text-align: left;"><b>Visio Incubator - PT. Visio Inovasi Nusantara</b><br>Managing Partner<br>Jan 2018 - Apr 2018</td></tr>
+					<tr><td style="text-align: left;"><b>Goldrayz Investment - PT. Goldrayz Investama</b><br>Chief Technology Officer<br>Jun 2018 - Nov 2018</td></tr>
+				</table>
+			</div>
+		</div>
+						
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="copyright" style="margin-right:1em; margin-left:1em">
+				<ul class="contact">
+					<li style="float:left">bayubirru &copy; 2019</li>
+					<li><a href="mailto:bayubirru16@gmail.com" class="fa fa-envelope"></a></li>
+					<li><a href="https://www.instagram.com/bayubirru/" target="_blank" class="fa fa-instagram"></a></li>
+					<li><a href="https://www.facebook.com/dhistira.bayu" target="_blank" class="fa fa-facebook"></a></li>
+					<li><a href="https://twitter.com/bayubirru_" target="_blank" class="fa fa-twitter"></a></li>
+					<li><a href="https://storycent.tumblr.com" target="_blank" class="fa fa-tumblr"></a></li>
+					<li><a href="https://linkedin.com/in/dhistiraby" target="_blank" class="fa fa-linkedin"></a></li>
+					<li><a href="https://github.com/dhistira" target="_blank" class="fa fa-github"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<script>
+			/* Toggle between hiding and showing the dropdown */
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+				if (!event.target.matches('.dropbtn')) {
+
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+						var openDropdown = dropdowns[i];
+						if (openDropdown.classList.contains('show')) {
+							openDropdown.classList.remove('show');
+						}
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
+

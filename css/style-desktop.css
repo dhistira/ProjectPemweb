@@ -1,0 +1,41 @@
+/* GENERAL */
+	header {
+		margin-bottom: 1.6em;
+	}
+	
+		header h2 {
+			font-size: 2.5em;
+		}
+
+		header .byline {
+			font-size: 1.3em;
+		}
+
+/* HEADER */
+
+	#header, #header2 {
+		padding: 5em 0 0 0;
+		background-color: #fff;
+	}
+
+	.homepage #header {
+		padding: 16em 0 12em 0;
+	}
+
+/* MAIN */
+
+	#main {
+		padding-top: 5em;
+	}
+	
+	.homepage #content header h2 {
+		padding: 0.70em 0em;
+		font-size: 2.2em;
+	}
+
+/* FOOTER */
+	
+	#footer
+	{
+		padding: 2em;
+	}
